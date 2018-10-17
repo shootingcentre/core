@@ -7,7 +7,7 @@ composer clear-cache
 composer require shootingcentre/core:*
 bin/magento setup:upgrade
 rm -rf var/di var/generation generated/code && bin/magento setup:di:compile
-rm -rf pub/static/* && bin/magento setup:static-content:deploy -f en_US
+rm -rf pub/static/* && bin/magento setup:static-content:deploy -f en_US en_CA
 bin/magento maintenance:disable
 ```
 
@@ -18,7 +18,7 @@ composer clear-cache
 composer update shootingcentre/core
 bin/magento setup:upgrade
 rm -rf var/di var/generation generated/code && bin/magento setup:di:compile
-rm -rf pub/static/* && bin/magento setup:static-content:deploy -f en_US
+rm -rf pub/static/* && bin/magento setup:static-content:deploy -f en_US en_CA
 bin/magento maintenance:disable
 ```
 
