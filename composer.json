@@ -1,6 +1,6 @@
 {
 	"name": "shootingcentre/core"
-	,"version": "0.0.2"
+	,"version": "0.0.3"
 	,"description": "A custom module for shootingcentre.ca"
 	,"type": "magento2-module"
 	,"homepage": "https://github.com/shootingcentre/core"
